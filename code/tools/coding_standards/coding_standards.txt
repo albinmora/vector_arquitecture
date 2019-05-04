@@ -1,0 +1,17 @@
+NAMING CONVENTIONS
+
+        Variables: lowerCamelCase
+        Constants: ALL_CAPS_WITH_UNDERSCORES
+        Functions: lowerCamelCase
+        Classes: UpperCamelCase
+        Filenames: lower_with_underscores
+
+FORMATTING
+
+        Limit lines to 80 characters.
+        Indentation should be 4 spaces.
+
+
+
+Reference: https://standards.mousepawmedia.com/coding.html
+
