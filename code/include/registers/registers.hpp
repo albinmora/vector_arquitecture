@@ -35,6 +35,13 @@ class Reg_File {
 			  vector<uint8_t> &output_read1,
 			  vector<uint8_t> &output_read2);
 
+      // System reserved registers
+      register_s R16;  //Vector Length Register
+      register_s R17;  //Vector Register index
+
+      register_bank_v REG_BANK_V;
+      register_bank_s REG_BANK_S;
+
 	private:
       // Vector Registers
 	  register_v R0;
@@ -56,12 +63,7 @@ class Reg_File {
 	  register_s R14;
 	  register_s R15;
 
-	  // System reserved registers
-	  register_s R16;  //Vector Length Register
-	  register_s R17;  //Vector Register index
 
-	  register_bank_v REG_BANK_V;
-	  register_bank_s REG_BANK_S;
 
 
 
