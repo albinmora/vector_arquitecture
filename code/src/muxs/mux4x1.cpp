@@ -6,7 +6,7 @@
  */
 #include "../../include/muxs/mux4x1.hpp"
 
-mux4x1::mux4x1(char d0, char d1, char d2, char d3, char s, char &y){
+Mux4x1::Mux4x1(char d0, char d1, char d2, char d3, char s, char &y){
 	switch (s) {
 		case 00:
             y = d0;
