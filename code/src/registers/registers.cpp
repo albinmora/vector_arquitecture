@@ -51,6 +51,7 @@ void Reg_File::register_vertorial(
 		vector<uint8_t> &output_read2)
 {
 	//uint8_t register_index = R17;
+
 	if(we){
 		// Wirite mode
 		if(index_write1 < 8){

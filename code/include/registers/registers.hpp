@@ -42,6 +42,7 @@ class Reg_File {
       register_bank_v REG_BANK_V;
       register_bank_s REG_BANK_S;
 
+
 	private:
       // Vector Registers
 	  register_v R0;
@@ -62,10 +63,6 @@ class Reg_File {
 	  register_s R13;
 	  register_s R14;
 	  register_s R15;
-
-
-
-
 
 };
 
